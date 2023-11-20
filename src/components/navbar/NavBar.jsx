@@ -9,8 +9,6 @@ import "./navbar.scss";
 import {
   Avatar,
   Badge,
-  Button,
-  InputAdornment,
   Menu,
   MenuItem,
   styled,
