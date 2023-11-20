@@ -4,7 +4,7 @@ import * as d3 from "d3";
 const LineGraph = (props) => {
   const chartRef = useRef(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-console.log('props',props)
+
   useEffect(() => {
     const data =props.data;
     const margin = { top: 20, right: 20, bottom: 30, left: 40 };
